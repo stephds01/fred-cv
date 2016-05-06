@@ -1,0 +1,79 @@
+.ls-header {
+  position: relative;
+
+  height: 400px;
+
+  background-image: url('../images/commercial1.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+
+}
+
+.ls-header-container {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.ls-header-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+}
+.ls-header-logo a{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+
+  padding-top: 15px;
+  color: white;
+}
+
+.ls-header-logo p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+
+  padding: 10px;
+}
+
+.ls-header-avatar {
+  position: absolute;
+  top: 300px;
+
+    img {
+      border: 10px #fff solid;
+      border-radius: 50%;
+
+    }
+
+}
+
+.ls-header-title {
+  position: absolute;
+  bottom: 18px;
+
+}
+
+.ls-header-title p {
+  text-align: center;
+  width: 656px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgba(16,15,20,0.5);
+  color: white;
+  border-radius: 25px 0;
+}
+
+
+.ls-header-title span {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #fff;
+  //color: #393E42;
+
+}

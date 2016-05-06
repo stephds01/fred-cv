@@ -1,0 +1,104 @@
+.ls-nav {
+
+    .ls-nav-container {
+        margin-top: 150px;
+      margin-bottom:150px;
+      padding: 0;
+
+
+
+    }
+      nav a {
+        display: block;
+        color: red;
+
+        text-decoration: none;
+
+
+        font-size: 16.2px;
+        line-height: 3.04;
+      }
+      nav a:hover {
+        color: purple;
+
+      }
+
+      nav i {
+        padding-right: 10px;
+      }
+
+    .ls-nav-container .lien1:after {
+      position: absolute;
+      top: 31px;
+      left: 5.1px;
+      content: '';
+      display: block;
+      width: 3px;
+      height: 36px;
+      background-color: red;
+    }
+    .ls-nav-container .lien2:after {
+      position: absolute;
+      top: 80px;
+      left: 5.1px;
+      content: '';
+      display: block;
+      width: 3px;
+      height: 36px;
+      background-color: red;
+    }
+    .ls-nav-container .lien3:after {
+      position: absolute;
+      top: 128px;
+      left: 5.1px;
+      content: '';
+      display: block;
+      width: 3px;
+      height: 37px;
+      background-color: red;
+    }
+
+
+}
+
+.ls-nav-content {
+  padding-top: 40px;
+}
+
+.ls-nav-paragraphe p {
+  margin-bottom: 34px;
+}
+
+.ls-nav-social-item{
+  padding-right: 7px;
+}
+
+
+
+#navigation #active {
+  color : black;
+}
+
+
+
+/*****************************************/
+/*      Nav-top   */
+/*****************************************/
+.ls-nav-top {
+  padding-top: 10px;
+  background-color: #0B151E;
+
+    a {
+      display: inline;
+      width: 100px;
+      padding: 20px;
+      color: white;
+
+    }
+  
+    .active {
+      color: green;
+    } 
+}
+
+

@@ -1,0 +1,19 @@
+.contact-us {
+  border: 1px white solid;
+  width: 100%;
+
+  color: white;
+  padding: 20px;
+}
+
+.contact-us .phone {
+  display: inline-block;
+}
+
+.contact-us .phone a , .contact-us .mail a{
+  padding-left: 15px;
+}
+
+iframe {
+  margin-left: 20%;
+}
